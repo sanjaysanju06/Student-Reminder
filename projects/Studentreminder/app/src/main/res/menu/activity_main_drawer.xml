@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Attendence management" />
+        <item
+            android:id="@+id/library"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="library" />
+        <item
+            android:id="@+id/useful_links"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Timetable" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/aboutfrag"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Forum" />
+
+        </menu>
+    </item>
+
+</menu>
